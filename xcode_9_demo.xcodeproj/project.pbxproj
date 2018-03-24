@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1ADA3A1F7058E3004B6476 /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1ADA391F7058E3004B6476 /* APICalls.swift */; };
 		CD3FCBBA1F317ADF002EBA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FCBB91F317ADF002EBA1F /* AppDelegate.swift */; };
 		CD3FCBBC1F317ADF002EBA1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FCBBB1F317ADF002EBA1F /* ViewController.swift */; };
 		CD3FCBBF1F317ADF002EBA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3FCBBD1F317ADF002EBA1F /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		CD3FCBC41F317ADF002EBA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3FCBC21F317ADF002EBA1F /* LaunchScreen.storyboard */; };
 		CD3FCBCF1F317ADF002EBA1F /* xcode_9_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FCBCE1F317ADF002EBA1F /* xcode_9_demoTests.swift */; };
 		CD3FCBDA1F317ADF002EBA1F /* xcode_9_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FCBD91F317ADF002EBA1F /* xcode_9_demoUITests.swift */; };
+		CD8B6A401F318508006E2A44 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B6A3F1F318508006E2A44 /* ViewControllerB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD1ADA391F7058E3004B6476 /* APICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
 		CD3FCBB61F317ADF002EBA1F /* xcode_9_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcode_9_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3FCBB91F317ADF002EBA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD3FCBBB1F317ADF002EBA1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		CD3FCBD51F317ADF002EBA1F /* xcode_9_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcode_9_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3FCBD91F317ADF002EBA1F /* xcode_9_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcode_9_demoUITests.swift; sourceTree = "<group>"; };
 		CD3FCBDB1F317ADF002EBA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8B6A3F1F318508006E2A44 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				CD3FCBB91F317ADF002EBA1F /* AppDelegate.swift */,
 				CD3FCBBB1F317ADF002EBA1F /* ViewController.swift */,
+				CD8B6A3F1F318508006E2A44 /* ViewControllerB.swift */,
 				CD3FCBBD1F317ADF002EBA1F /* Main.storyboard */,
 				CD3FCBC01F317ADF002EBA1F /* Assets.xcassets */,
 				CD3FCBC21F317ADF002EBA1F /* LaunchScreen.storyboard */,
 				CD3FCBC51F317ADF002EBA1F /* Info.plist */,
+				CD1ADA391F7058E3004B6476 /* APICalls.swift */,
 			);
 			path = xcode_9_demo;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8B6A401F318508006E2A44 /* ViewControllerB.swift in Sources */,
 				CD3FCBBC1F317ADF002EBA1F /* ViewController.swift in Sources */,
+				CD1ADA3A1F7058E3004B6476 /* APICalls.swift in Sources */,
 				CD3FCBBA1F317ADF002EBA1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,9 +431,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT72VQ38LU;
 				INFOPLIST_FILE = xcode_9_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.xcode-9-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anandchinte.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,9 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT72VQ38LU;
 				INFOPLIST_FILE = xcode_9_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.xcode-9-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anandchinte.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
